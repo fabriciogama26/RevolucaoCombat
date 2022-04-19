@@ -1,0 +1,2 @@
+docker-compose up --build (primira vez)
+docker-compose up -d
