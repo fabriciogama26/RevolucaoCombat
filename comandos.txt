@@ -1,2 +1,20 @@
 docker-compose up --build (primira vez)
 docker-compose up -d
+
+pip3 install -r requirements
+
+python .\manage.py runserver
+
+pip3 freeze > requirements.txt
+
+venv/Scripts/activate
+deactivate
+py -m venv venv
+
+git config --global user.name
+git config --global user.email
+
+winget install --id Git.Git -e --source winget
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Set-ExecutionPolicy RemoteSigned
